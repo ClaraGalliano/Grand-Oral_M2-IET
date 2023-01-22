@@ -36,10 +36,10 @@ cpt = 0
 cptPac = 0
 dejavu = 0
 
-with open('nazanin.txt', 'w') as ficRes:
+with open('hpalme.txt', 'w') as ficRes:
     for fichier in os.listdir('.'):
         
-        if fichier.endswith('nazanin.pkl'):
+        if fichier.endswith('hpalme.pkl'):
             print ("loading "), fichier
            # arg = raw_input('GO ???')
             with open(fichier, 'r') as fic:
