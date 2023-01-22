@@ -44,7 +44,7 @@ ficResNS = open ('ns.txt', 'w')
 
 for fichier in os.listdir('.'):
     
-    if fichier.endswith('nazanin.pkl'):
+    if fichier.endswith('hpalme.pkl'):
         print ("loading "), fichier
        # arg = raw_input('GO ???')
         with open(fichier, 'r') as fic:
